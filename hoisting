@@ -54,3 +54,23 @@ var myVar = 'foo';
         console.log('New value is: ' + myVar);
     }
 )();
+
+6.
+
+var double = 22;
+
+function double(num) {
+  return (num*2);
+}
+
+console.log(typeof double); // Output: number
+
+7.
+
+var double;
+
+function double(num) {
+  return (num*2);
+}
+
+console.log(typeof double); // Output: function
